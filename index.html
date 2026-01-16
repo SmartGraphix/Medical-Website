@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="styles.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+      <title>Medical Website</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav_logo">
+               <i class="ri-stethoscope-line"></i> Medical
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+               <ul class="nav_list">
+                  <li>
+                     <a href="#home" class="nav_link active-link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#delivery" class="nav_link">Delivery</a>
+                  </li>
+
+                  <li>
+                     <a href="#about" class="nav_link">About Us</a>
+                  </li>
+
+                  <li>
+                     <a href="#prices" class="nav_link">Prices</a>
+                  </li>
+
+                  <li>
+                     <a href="#contact" class="nav_link">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- Close Menu -->
+                <div class="nav_close" id="nav-close">
+                     <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <div class="nav_buttons">
+               <!-- Theme Button -->
+                <i class="ri-moon-fill nav_theme" id="theme-button"></i>
+
+               <!-- Toggle Button -->
+                  <div class="nav_toggle" id="nav-toggle">
+                     <i class="ri-menu-3-line"></i>
+                  </div>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home_container container grid">
+               <div class="home_data">
+                  <h1 class="home_title">
+                     <span>Get Quick</span>
+                     <br>Medical Service
+                  </h1>
+
+                  <p class="home_description">
+                     Get your medical service from a certified 
+                     doctor and health professional.
+                  </p>
+
+                  <a href="#delivery" class="button">Get Started</a>
+               </div>
+
+               <div class="home_content grid">
+                  <div class="home_info">
+                     <div>
+                        <h2 class="home_name">Dr. Myla Harts</h2>
+                        <h3 class="home_profession">Bone Specialist</h3>
+
+                        <div class="home_icons">
+                           <div class="home_box">
+                              <i class="ri-medicine-bottle-fill"></i>
+                           </div>
+
+                           <div class="home_box">
+                              <i class="ri-24-hours-line"></i>
+                           </div>
+                        </div>
+                     </div>
+
+                     <a href="#contact" class="home_button button-dark">
+                        <i class="ri-arrow-right-s-line"></i>
+                        Contact
+                     </a>
+                  </div>
+
+                  <div class="home_image">
+                     <img src="Images/home-img.png" alt="image" class="home_img">
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== DELIVERY ====================-->
+         <section class="delivery section" id="delivery">
+            <div class="delivery_container container grid">
+               <div class="delivery_data">
+                  <h2 class="section_title">
+                     Vaccine Injections <br>
+                     <span>Delivery Service</span>
+                  </h2>
+
+                  <p class="delivery_description">
+                     We provide door-to-door vaccine and injection delivery
+                     services, available to all segments throughout the city.
+                  </p>
+
+                  <div class="delivery_info">
+                     <div>
+                        <div class="delivery_icon">
+                           <i class="ri-home-4-fill"></i>
+                        </div>
+
+                        <h3 class="delivery_subtitle">Home Service</h3>
+                        <p>Fast home vaccination service.</p>
+                     </div>
+
+                      <div>
+                        <div class="delivery_icon">
+                           <i class="ri-time-line"></i>
+                        </div>
+
+                        <h3 class="delivery_subtitle">1 Hour Service</h3>
+                        <p>Super easy and quick service for patients.</p>
+                     </div>
+
+                      <div>
+                        <div class="delivery_icon">
+                           <i class="ri-syringe-fill"></i>
+                        </div>
+
+                        <h3 class="delivery_subtitle">Better Quality</h3>
+                        <p>The Best Medicines for Health.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="delivery_content">
+                  <h3 class="delivery_title">Request <br> Vaccination</h3>
+
+                  <p class="delivery_patients">
+                     <span>324</span> Patients
+                  </p>
+
+                  <div class="delivery_image">
+                     <img src="Images/delivery-img.png" alt="image" class="delivery_img">
+                  </div>
+
+                  <a href="#contact" class="button-dark">
+                     Request
+                     <i class="ri-arrow-right-s-line"></i>
+                  </a>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about_container container grid">
+               <div class="about_data">
+                  <div>
+                     <h2 class="section_title">
+                        <span>We Have Certified</span>
+                        <br> Medical Service
+                     </h2>
+
+                     <p class="about_description">
+                        Don't worry, we have certified medical services, so
+                        you can receive medical consultation in any specialty.  
+                     </p>
+                  </div>
+
+                  <div class="about_info">
+                     <div class="about_stat">
+                        <h3 class="about_number">256</h3>
+                        <p class="about_details">Healthy <br> Patients</p>
+                     </div>
+
+                     <div class="about_stat">
+                        <h3 class="about_number">16</h3>
+                        <p class="about_details">Hospital <br> Care</p>
+                     </div>
+
+                     <div class="about_stat">
+                        <h3 class="about_number">8</h3>
+                        <p class="about_details">Years Of <br> Experience</p>
+                     </div>
+                  </div>
+
+                  <a href="#contact" class="about_button">
+                     Contact Me
+                     <i class="ri-arrow-right-s-line"></i>
+                  </a>
+               </div>
+
+               <img src="Images/about-img.png" alt="Image" class="about_img">
+            </div>
+         </section>
+
+         <!--==================== PRICES ====================-->
+         <section class="prices section" id="prices">        
+            <div class="prices_container container grid">
+               <div class="prices_data">
+                  <h2 class="section_title">
+                     <span>Affordable Prices To</span>
+                     <br> Check Your Health
+                  </h2>
+
+                  <p class="prices_description">
+                     Get the best prices, make inquiries, checkups, and 
+                     visit your home. Schedule your consultation now.
+                  </p>
+               </div>
+
+               <div class="prices_content">
+                  <div class="prices_box">
+                     <p class="prices_details">All Medical Services <br> In Your Hand</p>
+                  </div>
+
+                  <div class="prices_swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="prices_card swiper-slide">
+                           <div class="prices_heading">
+                              <h2 class="prices_number">$15</h2>
+                              <h3 class="prices_title">Health Consultation</h3>
+                           </div>
+
+                           <ul class="prices_list">
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Consultation about your health.</span>
+                              </li>
+
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Ask any questions about your health.</span>
+                              </li>
+
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Take your time without limits.</span>
+                              </li>
+                           </ul>
+                        </article>
+
+                        <article class="prices_card swiper-slide">
+                           <div class="prices_heading">
+                              <h2 class="prices_number">$35</h2>
+                              <h3 class="prices_title">Delivery Services</h3>
+                           </div>
+
+                           <ul class="prices_list">
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>We offer delivery services.</span>
+                              </li>
+
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>We come to your home for services.</span>
+                              </li>
+
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Available 24 hours a day.</span>
+                              </li>
+                           </ul>
+                        </article>
+
+                        <article class="prices_card swiper-slide">
+                           <div class="prices_heading">
+                              <h2 class="prices_number">$125</h2>
+                              <h3 class="prices_title">Medical Attention</h3>
+                           </div>
+
+                           <ul class="prices_list">
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Instant check-ups on your health.</span>
+                              </li>
+
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Primary attention on the patient.</span>
+                              </li>
+
+                              <li class="prices_item">
+                                 <i class="ri-checkbox-fill"></i>
+                                 <span>Monitoring your health for up to a week.</span>
+                              </li>
+                           </ul>
+                        </article>
+                     </div>
+
+                     <!-- Pagination -->
+                     <div class="swiper-pagination"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== GALLERY ====================-->
+         <section class="gallery section">
+            <div class="gallery_container container grid">
+               <!--Insert images according to the  size of the reference
+               images (1500 x 800, 800 x 1500, 150 x 150, etc.)-->
+               <div class="gallery_image">
+                  <img src="Images/gallery-img-1.png" alt="image" class="gallery_img">
+               </div>
+
+               <div class="gallery_image">
+                  <img src="Images/gallery-img-2.png" alt="image" class="gallery_img">
+               </div>
+
+               <div class="gallery_image">
+                  <img src="Images/gallery-img-3.png" alt="image" class="gallery_img">
+               </div>
+
+               <div class="gallery_image">
+                  <img src="Images/gallery-img-4.png" alt="image" class="gallery_img">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact_container container grid">
+               <div class="contact_data">
+                  <h2 class="section_title">
+                     Contact Me <br>
+                     <span>On All Platforms</span>
+                  </h2>
+
+                  <p class="contact_description">
+                     Contact me on all my social medial channels. I'm
+                     available for you and your health. Write to me now. 
+                  </p>
+
+                  <div class="contact_info">
+                     <div>
+                        <div class="contact_icon">
+                           <i class="ri-message-3-fill"></i>
+                        </div>
+
+                        <h3 class="contact_subtitle">Write to me</h3>
+
+                        <div class="contact_social">
+                           <a href="https://m.me/yourprofile" target="_blank" class="contact_social-link">
+                              <i class="ri-messenger-fill"></i>
+                           </a>
+
+                           <a href="https://wa.me/yourphonenumber" target="_blank" class="contact_social-link">
+                              <i class="ri-whatsapp-fill"></i>
+                           </a>
+
+                           <a href="https://t.me/yourusername" target="_blank" class="contact_social-link">
+                              <i class="ri-telegram-2-fill"></i>
+                           </a>
+
+                           <a href="mailto:youremail@example.com" target="_blank" class="contact_social-link">
+                              <i class="ri-mail-fill"></i>
+                           </a>
+                        </div>
+                     </div>
+
+                     <div>
+                        <div class="contact_icon">
+                           <i class="ri-hospital-fill"></i>
+                        </div>
+
+                        <h3 class="contact_subtitle">Location</h3>
+
+                        <address class="contact_address">
+                           Kokomlemle - Accra <br>
+                           Nii Adjaben St. 123
+                        </address>
+                     </div>
+
+                     <div>
+                        <div class="contact_icon">
+                           <i class="ri-time-fill"></i>
+                        </div>
+
+                        <h3 class="contact_subtitle">Attention</h3>
+
+                        <address class="contact_address">
+                           Monday - Friday <br>
+                           8am - 6pm
+                        </address>
+                     </div>
+
+                     <div>
+                        <div class="contact_icon">
+                           <i class="ri-smartphone-fill"></i>
+                        </div>
+
+                        <h3 class="contact_subtitle">Phone Number</h3>
+
+                        <address class="contact_address">
+                           +233 244 568 999 <br>
+                           +233 254 666 000
+                        </address>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="contact_map">
+                  <!--Embed Google Map here-->
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7941.8805842710035!2d-0.2137118121189436!3d5.575846055734115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a13a37efccb%3A0x883af4f72b75a17e!2sKokomlemle%2C%20Accra!5e0!3m2!1sen!2sgh!4v1764001262735!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer_container container grid">
+            <a href="#" class="footer_logo">
+               <i class="ri-stethoscope-line"></i> Medical
+            </a>
+
+            <div class="footer_links">
+               <a href="#home" class="footer_link">Home</a>
+               <a href="#about" class="footer_link">About Us</a>
+               <a href="#prices" class="footer_link">Prices</a>
+            </div>
+
+            <div class="footer_social">
+               <a href="https://www.facebook.com/yourprofile" target="_blank" class="footer_social-link">
+                  <i class="ri-facebook-circle-fill"></i>
+               </a>
+
+               <a href="https://www.instagram.com/yourprofile" target="_blank" class="footer_social-link">
+                  <i class="ri-instagram-fill"></i>
+               </a>
+
+               <a href="https://twitter.com/yourprofile" target="_blank" class="footer_social-link">
+                  <i class="ri-twitter-x-fill"></i>
+               </a>
+
+               <a href="https://www.youtube.com/yourprofile" target="_blank" class="footer_social-link">
+                  <i class="ri-youtube-fill"></i>
+               </a>
+
+               <a href="https://wa.me/yourphonenumber" target="_blank" class="footer_social-link">
+                  <i class="ri-whatsapp-fill"></i>
+               </a>
+            </div>
+         </div>
+
+         <span class="footer_copy">
+            &#169; 2025 Medical. All rights reserved.
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+      
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="main.js"></script>
+   </body>
+</html>
